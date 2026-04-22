@@ -1,0 +1,5 @@
+package org.foodorder.strategy;
+
+public interface PaymentStrategy {
+    void pay(double amount);
+}
